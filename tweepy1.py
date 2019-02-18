@@ -9,10 +9,10 @@ Created on Mon Feb 18 15:20:02 2019
 import tweepy
 from textblob import TextBlob
 #keys required for generation of an API object
-consumer_key = '5nv3plDx7he3ChuzX24FaujlD'
-consumer_key_secret = 'UylYJSmusCT8DDN8q1KqbYbDDLc8BzPrDB9VrMUVeow05tryVO' 
-access_token = '3343301473-MLyQRgCGU3HGaAhudUJ8c8DwXOeJezkMzOW7Agg'
-access_token_secret = 'WTtayPHmNc1OoF4SavB7ZV5aFXKQO9sMyhTiF2K45yLgj' 
+consumer_key = '5nv3pl********************'
+consumer_key_secret = 'UylYJ**************************************' 
+access_token = '3343301473-***************************************'
+access_token_secret = 'WTtayPHmNc1Oo********************************' 
 #authenticating using the keys generated
 authenticate = tweepy.OAuthHandler(consumer_key,consumer_key_secret)
 authenticate.set_access_token(access_token,access_token_secret)
